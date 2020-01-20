@@ -1,0 +1,6 @@
+prefix onto: <http://dbpedia.org/ontology/>
+prefix db: <http://dbpedia.org/resource/>
+select ?subject
+where { db:Danny_Kaye onto:birthPlace ?object .
+?subject onto:birthPlace ?object
+      }
